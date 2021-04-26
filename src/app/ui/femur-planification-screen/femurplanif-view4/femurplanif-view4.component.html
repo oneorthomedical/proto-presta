@@ -1,0 +1,14 @@
+
+<canvas #rendererFemurPlanification class="rendererFemurPlanification">
+</canvas>
+<mat-toolbar>
+  <button mat-icon-button (click)="home()">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button mat-icon-button (click)="displayFemur()">
+    <img src="assets/hip/icon/femur_cut.png" [class]="femur" width="24px">
+  </button>
+  <button mat-icon-button (click)="displayStem()">
+    <img src="assets/hip/icon/stem.png" [class]="stem" width="24px">
+  </button>
+</mat-toolbar>

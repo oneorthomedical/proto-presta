@@ -1,0 +1,27 @@
+
+<mat-slider
+  class="clipOnY"
+  min="1" [max]="cotyleplanifView1Service.maxClipOnY"
+  step="1" [(value)]="cotyleplanifView1Service.valueClipY" (input)="clipOnY($event)"
+>
+</mat-slider>
+<canvas #rendererCotylePlanificationFrontal class="rendererCotylePlanificationFrontal">
+</canvas>
+<mat-toolbar>
+  <button mat-icon-button (click)="home()">
+    <mat-icon>home</mat-icon>
+  </button>
+  <!--<button mat-icon-button (click)="displayPelvis()">
+    <img src="assets/hip/icon/pelvis.png" [class]="pelvis" width="24px">
+  </button>-->
+  <button mat-icon-button (click)="displayCup()">
+    <img src="assets/hip/icon/cup.png" [class]="cotyleplanifView1Service.classIs3Cup3D" width="24px">
+  </button>
+  <button mat-icon-button (click)="display2D3D()">
+    <mat-icon [class]="cotyleplanifView1Service.classIs3D">3d_rotation</mat-icon>
+  </button>
+<!--  <button matTooltip="Affichage plan" mat-icon-button (click)="displayPlan()">
+    <mat-icon style="color: red" [class]="plan">aspect_ratio</mat-icon>
+  </button>-->
+</mat-toolbar>
+

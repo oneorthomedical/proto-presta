@@ -1,0 +1,89 @@
+
+.container {
+  text-align: center;
+}
+
+.informationInclinaison {
+  padding: 10px;
+  font-family: "Google Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f5f5f5;
+  background-color: #21212136;
+  width: 100%;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+  border-radius: 30px;
+}
+
+.informationAnteversion {
+  padding: 10px;
+  font-family: "Google Sans", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #f5f5f5;
+  width: 100%;
+  background-color: #21212136;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+  border-radius: 30px;
+}
+
+.informationFemur {
+  color: #f5ff82;
+}
+
+.size > .mat-button-toggle-appearance-standard {
+  color: #fff;
+  background: #934896;
+}
+
+.size > .mat-button-toggle-checked {
+  color: #fff;
+  background: #934896;
+}
+
+.range > .mat-button-toggle-appearance-standard {
+  color: #fff;
+  background: #928592;
+}
+
+.range > .mat-button-toggle-checked {
+  color: #fff;
+  background: #934896;
+}
+
+.icon-2x {
+  transform: scale(2);
+}
+
+.label {
+  font-size: 25px;
+
+}
+
+.center {
+  display: contents;
+}
+
+/*.mat-grid-tile .mat-figure {
+  display: contents !important;
+}*/
+.stem-range {
+  padding-top: 15px;
+}
+
+.row {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  color: white;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+  font-family: "Google Sans", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.informationImplant {
+  color: #0b9bad;
+}

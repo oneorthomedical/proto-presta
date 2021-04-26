@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row align-items-center center">
+    <div class="stem-range">
+      <mat-button-toggle-group class="range">
+        <mat-button-toggle class="label" value="std" checked (click)="setStd()">
+          STD
+        </mat-button-toggle>
+        <mat-button-toggle class="label" value="vara" (click)="setVara()">
+          VARA
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+    <br>
+  </div>
+  <div class="row align-items-center center">
+    <div class="stem-size">
+      <mat-button-toggle-group class="size">
+        <mat-button-toggle>
+          <mat-icon class="icon-2x" (click)="minusSize()">remove</mat-icon>
+        </mat-button-toggle>
+        <mat-button-toggle class="label">
+          {{getSize()}}
+        </mat-button-toggle>
+        <mat-button-toggle>
+          <mat-icon class="icon-2x" (click)="plusSize()">add</mat-icon>
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+  </div>
+</div>

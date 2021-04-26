@@ -1,0 +1,13 @@
+<mat-toolbar>
+  <button (click)="home()" mat-icon-button>
+    <mat-icon>home</mat-icon>
+  </button>
+  <button mat-icon-button (click)="displayPelvis()">
+    <img src="assets/hip/icon/pelvis.png" [class]="pelvis" width="24px">
+  </button>
+  <button mat-icon-button (click)="displayCup()">
+    <img src="assets/hip/icon/cup.png" [class]="cup" width="24px">
+  </button>
+</mat-toolbar>
+<canvas #rendererCotylePlanification class="rendererCotylePlanification" id="rendererCotylePlanification">
+</canvas>

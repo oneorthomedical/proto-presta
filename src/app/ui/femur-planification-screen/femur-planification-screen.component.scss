@@ -1,0 +1,9 @@
+mat-grid-tile {
+  background: #212529;
+}
+
+.pad {
+  ::ng-deep .mat-figure {
+    display: contents;
+  }
+}

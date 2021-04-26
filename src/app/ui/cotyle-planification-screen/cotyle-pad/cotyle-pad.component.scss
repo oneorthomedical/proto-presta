@@ -1,0 +1,150 @@
+#dPadTige {
+  padding-top: 21px;
+  transform: scale(1.5);
+  z-index: 60;
+  width: auto;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* The rule below is not implemented in browsers yet */
+  -o-user-select: none;
+
+  /* The rule below is implemented in most browsers by now */
+  user-select: none;
+}
+
+.back {
+  background-color: #21212136;
+  width: auto;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+  border-radius: 30px;
+}
+
+.pad {
+  max-height: 1.6rem;
+  max-width: 26px;
+  min-width: 26px;
+}
+
+/*
+!* Safari style *!
+@media not all and (min-resolution:.001dpcm) { @media {
+  .pad {
+    max-height: 1.8rem;
+  }
+}}
+*/
+
+.padCenter {
+  max-width: 78px;
+  max-height: 26px;
+  min-width: 78px;
+  margin-left: 2px;
+  margin-right: 1px;
+}
+
+.padCircle {
+  height: 145px;
+}
+
+.padTop {
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+.padMiddleTop {
+  margin-left: 26px;
+}
+
+#buttonTournerHautTige, #buttonTournerBasTige, #buttonTournerHautCotyle, #buttonTournerBasCotyle {
+  padding-top: 1px;
+}
+
+.padMiddleBot {
+  margin-right: 26px;
+}
+
+.container {
+  text-align: center;
+}
+
+.buttonRotationUp {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.buttonRotationDown {
+  -webkit-transform: rotate(45deg);
+
+  transform: rotate(45deg);
+}
+
+#divDeplacerTige, #divDeplacerCotyle {
+  max-height: 33px;
+  max-width: 33px;
+  min-width: 33px;
+  margin-left: 38%;
+  background-color: #f47d30;
+}
+
+
+#buttonDeplacerTige, #buttonDeplacerCotyle {
+  padding-left: 1%;
+  padding-top: 1%;
+  font-size: 32px;
+}
+
+
+.col.pad > .material-icons, #divDeplacerTige, #divDeplacerCotyle {
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.col.pad :hover {
+  color: #3d768a;
+}
+
+#divDeplacerTige, #divDeplacerCotyle :hover {
+  color: #be2a2a;
+}
+
+.informationInclinaison {
+  position: relative;
+  top: -100px;
+  padding: 10px;
+  font-family: "Google Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f5f5f5;
+  background-color: #21212136;
+  width: 100%;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+  border-radius: 30px;
+}
+
+.informationAnteversion {
+  position: relative;
+  padding: 10px;
+  font-family: "Google Sans", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #f5f5f5;
+  background-color: #21212136;
+  width: 100%;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+  border-radius: 30px;
+}
+
+.informationImplant {
+  color: #0b9bad;
+}
+table {
+  width: 100%;
+  color: white;
+  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+  font-family: "Google Sans", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+

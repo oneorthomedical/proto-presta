@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+$template-color: darken(#ebebeb, 0%);
+html, body {
+  height: 100%;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #202124;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.mat-expansion-panel-body {
+  padding: 18px 21px 31px !important;
+  background-color: #ffffff;
+  color: black;
+}
+
+.mat-expansion-panel {
+  border-radius: 0px !important;
+  background: $template-color;
+}
+
+.mat-accent .mat-slider-track-fill, .mat-accent .mat-slider-thumb, .mat-accent .mat-slider-thumb-label {
+  background-color: #131212 !important;
+}
+.mat-slider-thumb-label-text {
+  color: white !important;
+}
+.mat-slider-horizontal .mat-slider-track-wrapper {
+  background-color: #948f8f !important;
+}
+.mat-stroked-button.mat-primary {
+  color: #000000 !important;
+}
+
+.mat-stroked-button:not([disabled]) {
+  border-color: rgba(138, 122, 122, 0.8);
+}
+
+.dt-icon-maximize {
+  display: none !important;
+}
+
+.ui-modal {
+  width: 11rem !important;
+  min-width: 10rem !important;
+  top: 0px !important;
+  left: calc(66.68%) !important;
+}
+
+.mat-expansion-panel-header-description, .mat-expansion-indicator::after, .mat-expansion-panel-header-title {
+  color: #212529;
+}
+
+.mat-expansion-panel-header {
+  height: 46px !important;
+}
+
+.mat-expansion-panel-spacing {
+  margin: 0 0 !important;
+}
+
+.mat-radio-outer-circle {
+  border-color: rgba(29, 26, 26, 0.7) !important;
+}
+
+.mat-radio-button.mat-warn .mat-radio-inner-circle, .mat-radio-button.mat-warn .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-warn.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-warn:active .mat-radio-persistent-ripple {
+  background-color: #000000;
+}
+
+.mat-badge-content {
+  /*  background: rgb(125, 138, 152) !important;*/
+  background: #db6b35 !important;
+  color: white !important;
+  font-weight: 400;
+}
+
+.mat-progress-spinner circle, .mat-spinner circle {
+  stroke: #212529 !important;
+}
+
+.cdk-global-scrollblock {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.mat-menu-panel {
+  background: #4242428c !important;
+}
+
+.mat-tooltip {
+  font-size: 14px;
+}
+mat-panel-title {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+}

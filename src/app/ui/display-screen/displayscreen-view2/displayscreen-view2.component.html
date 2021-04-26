@@ -1,0 +1,19 @@
+<canvas #rendererDisplayScreenView2 class="rendererDisplayScreenView">
+</canvas>
+<mat-toolbar>
+  <button matTooltip="Vue initiale" mat-icon-button (click)="home()">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button mat-icon-button (click)="displayFemurRight()">
+    <img src="assets/hip/icon/femur_right.png" [class]="femurRight" width="24px">
+  </button>
+  <button mat-icon-button (click)="displayPelvis()">
+    <img src="assets/hip/icon/pelvis.png"  [class]="pelvis" width="24px">
+  </button>
+  <button mat-icon-button>
+    <img src="assets/hip/icon/femur_left.png" (click)="displayFemurLeft()"  [class]="femurLeft" width="24px">
+  </button>
+  <button matTooltip="Affichage plan" mat-icon-button (click)="displayPlan()">
+    <mat-icon [class]="plan" style="color: red" >aspect_ratio</mat-icon>
+  </button>
+</mat-toolbar>

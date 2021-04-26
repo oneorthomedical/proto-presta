@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="row align-items-center">
+    <div class="container" id="dPadTige">
+      <div class="row justify-content-center position-relative">
+        <div class="col position-absolute back">
+          <img src="assets/hip/icon/pad/padCircleInactive.svg" id="padCircleTige" class="img-fluid padCircle"
+               alt="circle"/>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row padTop justify-content-center no-gutters">
+          <div class="col pad">
+            <span class="material-icons md-light" id="buttonPlusTige" (click)="upCup()">arrow_upward</span>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col pad padMiddleTop">
+          <span class="material-icons md-light deplacerTige" id="buttonHautTige"
+                style="margin-top: -1px;" (click)="upCupSize()">add</span>
+          </div>
+          <div class="col pad">
+          <span class="material-icons md-light buttonRotationUp deplacerTige" id="buttonMonterTige"
+                style="margin-left: -13px; margin-top: 7px;" (click)="inclinaisonRightCup()">rotate_right</span>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col pad padLeft">
+        <span class="material-icons md-light positionTige" id="buttonTournerHautTige"
+              (click)="backCup()">arrow_back</span>
+          </div>
+          <div class="col-3 padCenter">
+            <div class="row justify-content-center no-gutters">
+              <div class="col pad">
+            <span class="material-icons md-light deplacerTige" id="buttonGaucheTige" style="margin-left: -4px;"
+                  (click)="anteversionRightCup()">rotate_right</span>
+              </div>
+              <div class="col pad" style="bottom: -3px;">
+                <label id="labelTailleTige" style="color:#ffffff;">{{cupService.size.planification}}</label>
+              </div>
+              <div class="col pad">
+            <span class="material-icons md-light deplacerTige" id="buttonDroitTige" style="margin-right: -4px;"
+                  (click)="inclinaisonLeftCup()">rotate_left</span>
+              </div>
+            </div>
+          </div>
+          <div class="col pad padRight">
+            <span class="material-icons md-light positionTige" id="buttonTournerBasTige" (click)="forwardCup()">arrow_forward</span>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col pad">
+          <span class="material-icons md-light buttonRotationDown deplacerTige" id="buttonDescendreTige"
+                style="margin-right: -12px; margin-top: -6px;" (click)="anteversionLeftCup()">rotate_left</span>
+          </div>
+          <div class="col pad padMiddleBot">
+          <span class="material-icons md-light deplacerTige" id="buttonBasTige"
+                style="margin-top: 3px;" (click)="downCupSize()">remove</span>
+          </div>
+        </div>
+        <div class="row padBot justify-content-center no-gutters">
+          <div class="col pad">
+            <span class="material-icons md-light" id="buttonMoinsTige" (click)="downCup()">arrow_downward</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
