@@ -1,0 +1,26 @@
+[
+    {
+      "implant": "implant_femur",
+      "img": "./assets/hip/icon/stem.png",
+      "imgWidth": "30px",
+      "range": ["stem Ha", "stem Vara"],
+      "size": [1, 2, 3, 4, 9, 8, 7, 10],
+      "toggle": false
+    },
+    {
+      "implant": "head",
+      "img": "./assets/hip/icon/head.png",
+      "range": ["Head Ha", "Head Vara"],
+      "imgWidth": "40px",
+      "size": [1, 3, 65, 6, 9, 8, 50, 10],
+      "toggle": false
+    },
+    {
+      "implant": "cup",
+      "img": "./assets/hip/icon/cup.png",
+      "imgWidth": "40px",
+      "range": ["Cup delta", "Cup metal"],
+      "size": [0, 3, 5, 6, 9, 8, 8, 10],
+      "toggle" : false
+    }
+]

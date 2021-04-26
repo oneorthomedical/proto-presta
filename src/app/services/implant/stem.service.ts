@@ -18,7 +18,7 @@ import {LesserTrochService} from '@app/services/element/lesser-troch.service';
 import {GreaterTrochService} from '@app/services/element/greater-troch.service';
 import {PositionUtil} from 'threejs-position-util';
 import {Euler, Vector3} from "three";
-import {Utils} from "@app/services/class/Utils";
+import {Utils} from '@app/services/class/Utils';
 
 
 @Injectable({
@@ -71,6 +71,7 @@ export class StemService extends Implant {
     this.dataLocalService.getCoordinateData().subscribe(
       value => {
         this.coordinates = value;
+        console.log('this coordinate', this.coordinates)
       }
     );
   }

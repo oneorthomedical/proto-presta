@@ -1,0 +1,66 @@
+{
+
+  "stem": {
+    "name": "Stem",
+    "display" : "Tige",
+    "img": "./assets/hip/icon/stem.png",
+    "visibility": "on",
+    "state" : "on/off"
+  },
+  "cup": {
+    "name": "Cup",
+    "display" : "Cupule",
+    "img": "./assets/hip/icon/cup.png",
+    "visibility": "on",
+    "state" : "on/off"
+  },
+  "head": {
+    "name": "Head",
+    "display" : "Tête",
+    "img": "./assets/hip/icon/head.png",
+    "visibility": "off",
+    "state" : "on/off"
+  },
+  "femur_right": {
+    "name": "Femur_right",
+    "display" : "Fémur droit",
+    "img": "./assets/hip/icon/femur_right.png",
+    "visibility": "off",
+    "state" : "on/off/transparent"
+  },
+  "femur_head": {
+    "name": "Femur_head",
+    "display" : "Tête fémorale",
+    "img": "./assets/hip/icon/femur_head.png",
+    "visibility": "off",
+    "state" : "on/off/transparent"
+  },
+  "femur_cut": {
+    "name": "Femur_cut",
+    "display" : "Fémur coupé",
+    "img": "./assets/hip/icon/femur_cut.png",
+    "visibility": "on",
+    "state" : "on/off/transparent"
+  },
+  "femur_left": {
+    "name": "Femur_left",
+    "display" : "Fémur gauche",
+    "img": "./assets/hip/icon/femur_left.png",
+    "visibility": "off",
+    "state" : "on/off/transparent"
+  },
+  "pelvis": {
+    "name": "Pelvis",
+    "display" : "Bassin",
+    "img": "./assets/hip/icon/pelvis.png",
+    "visibility": "on",
+    "state" : "on/off/transparent"
+  },
+  "helper": {
+    "name": "Helper",
+    "display" : "Plan de coupe",
+    "img": "./assets/hip/icon/ruler.png",
+    "visibility": "on",
+    "state" : "on/off"
+  }
+}
