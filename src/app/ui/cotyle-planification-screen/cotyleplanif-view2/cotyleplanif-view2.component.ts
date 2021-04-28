@@ -2,7 +2,7 @@ import {AfterViewInit, Component, ElementRef, Input, OnChanges, OnInit, ViewChil
 import {CotyleplanifView1Service} from '@app/ui/cotyle-planification-screen/cotyleplanif-view1/cotyleplanif-view1.service';
 import {CotyleplanifView2Service} from '@app/ui/cotyle-planification-screen/cotyleplanif-view2/cotyleplanif-view2.service';
 import {Utils} from '@app/services/class/Utils';
-import html2canvas from "html2canvas";
+
 
 @Component({
   selector: 'app-cotyleplanif-view2',
@@ -55,10 +55,10 @@ export class CotyleplanifView2Component implements OnInit, AfterViewInit, OnChan
   }
 
   screen() {
-    html2canvas(document.getElementById('rendererCotylePlanification')).then((canvas) => {
+/*    html2canvas(document.getElementById('rendererCotylePlanification')).then((canvas) => {
       document.body.appendChild(canvas);
       var dataURL = canvas.toDataURL();
       console.log('image1', dataURL);
-    });
+    });*/
   }
 }
